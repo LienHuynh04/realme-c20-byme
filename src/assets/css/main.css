@@ -4233,5 +4233,12 @@ h1, h2, h3, h4, h5 {
 img {
   max-width: 100%; }
 
-#header {
-  background: blue; }
+#header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  #header .container .header__navbar {
+    list-style-type: none;
+    display: flex; }
+    #header .container .header__navbar--item {
+      padding: 10px; }

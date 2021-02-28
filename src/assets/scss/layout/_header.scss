@@ -1,3 +1,17 @@
+//#header {
+//  background: blue;
+//}
 #header {
-  background: blue;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .header__navbar {
+      list-style-type: none;
+      display: flex;
+      &--item {
+        padding: 10px;
+      }
+    }
+  }
 }
